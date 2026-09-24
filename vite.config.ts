@@ -7,8 +7,8 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        stories: resolve(__dirname, 'stories.html'),
+        main: resolve(import.meta.dirname, 'index.html'),
+        stories: resolve(import.meta.dirname, 'stories.html'),
       },
     },
   },
