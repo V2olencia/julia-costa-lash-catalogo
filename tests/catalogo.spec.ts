@@ -11,7 +11,7 @@ test.describe('Júlia Costa Lash Designer — Catálogo', () => {
   test('cards de serviços estão presentes', async ({ page }) => {
     await page.goto('/julia-costa-lash-catalogo/');
     const cards = page.locator('.card');
-    await expect(cards).toHaveCount(4);
+    await expect(cards).toHaveCount(7);
   });
 
   test('navegação para Stories funciona', async ({ page }) => {
