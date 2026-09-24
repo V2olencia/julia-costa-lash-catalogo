@@ -39,7 +39,7 @@ npm test
 npm audit
 ```
 
-Os testes validam carregamento das duas páginas, quantidade de cartões e navegação. Em 24 de setembro de 2026, as dependências foram atualizadas e o `npm audit` não apontou vulnerabilidades conhecidas.
+Os testes validam carregamento das duas páginas, quantidade de cartões e navegação. Execute também o `npm audit` após instalar as dependências, pois o resultado pode mudar conforme o arquivo de versões for atualizado.
 
 ## Estrutura
 
