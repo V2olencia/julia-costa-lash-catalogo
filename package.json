@@ -1,7 +1,9 @@
 {
   "name": "julia-costa-lash-catalogo",
   "version": "1.0.0",
-  "description": "Catálogo responsivo da Júlia Costa Lash Designer",
+  "private": true,
+  "type": "module",
+  "description": "Protótipo responsivo de catálogo para um pequeno negócio de estética",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -9,7 +11,7 @@
     "test": "playwright test"
   },
   "keywords": ["catalogo", "lash", "julia-costa"],
-  "author": "Júlia Costa Lash Designer",
+  "author": "Vitória Araujo",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.59.1",
